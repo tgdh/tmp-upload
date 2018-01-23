@@ -1,0 +1,19 @@
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	var homePage = CurrentPage.Site();
+}
+
+<header class="c-header js-headshrink" role="banner">
+	<div class="o-wrap o-wrap--x-large clearfix">
+		<a href="@homePage.Url" class="o-logo-link">
+			<img src="/assets/img/bitmap/logo.gif" alt="@homePage.Name" class="o-logo-image">
+		</a>
+
+
+		<p class="o-telno">023 92 377900 
+			<a href="http://linkedin.com/company/the-mailing-people" target="_blank"><span class="linkedin"></span></a>
+			<a href="https://twitter.com/TMailingP" target="_blank"><span class="twitter"></span></a>
+			<a href="https://plus.google.com/+TheMailingPeoplePortsmouth" target="_blank"><span class="google"></span></a>
+		</p>
+	</div>
+</header>

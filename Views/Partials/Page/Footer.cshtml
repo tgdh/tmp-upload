@@ -1,0 +1,33 @@
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	var homePage = CurrentPage.Site();
+	var settings = homePage.FirstChild("Settings");
+}
+<footer class="c-footer clearfix" role="contentinfo">
+	<div class="o-wrap o-wrap--x-large">
+		@if( settings.HasValue("Address") ) {
+			<p class="o-address">@settings.Address</p>
+		}
+
+		@{
+			var footerLogos =  settings.GetPropertyValue<IEnumerable<IPublishedContent>>("FooterLogos");
+
+			foreach( var item in footerLogos ) {
+				var image = Umbraco.Media( Umbraco.Field(item, "image").ToString() );
+				var imageName = Umbraco.Field(item, "title");
+				var imageUrl = Umbraco.Field(item, "url");
+
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="o-logo__item">
+					@if( imageUrl.ToString() != "" ) {
+					    <a href="@imageUrl" itemprop="" class="o-logo__link" target="_blank">
+					        <img src="@image.Url?height=50" itemprop="thumbnail" alt="@imageName" class="o-logo__image" />
+					    </a>
+				    } else {
+				        <img src="@image.Url?height=50" itemprop="thumbnail" alt="@imageName" class="o-logo__image" />
+				    }
+				</figure>
+			}
+		}
+
+	</div>
+</footer>

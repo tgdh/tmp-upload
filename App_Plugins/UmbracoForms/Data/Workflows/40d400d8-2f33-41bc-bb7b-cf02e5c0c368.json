@@ -1,0 +1,13 @@
+{
+  "id": "40d400d8-2f33-41bc-bb7b-cf02e5c0c368",
+  "name": "Save as file",
+  "form": "ebcafd79-eec0-4850-b258-7d0076ea77d2",
+  "active": true,
+  "workflowTypeId": "9cc5854d-61a2-48f6-9f4a-8f3bdfafb521",
+  "executesOn": "Submitted",
+  "settings": {
+    "Path": "file-uploads",
+    "Extension": ".zip"
+  },
+  "sortOrder": 0
+}

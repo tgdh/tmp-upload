@@ -1,0 +1,14 @@
+{
+  "id": "e24f91dc-1819-49e0-915a-e5ba0d564339",
+  "name": "Send email to kev@tgdh.co.uk when submitted",
+  "form": "ebcafd79-eec0-4850-b258-7d0076ea77d2",
+  "active": true,
+  "workflowTypeId": "e96badd7-05be-4978-b8d9-b3d733de70a5",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "kev@tgdh.co.uk",
+    "Subject": "the form File upload form was submitted",
+    "Message": "the form File upload form was submitted, this is the list of values it contained, you can turn this email off under workflows in Umbraco Contour"
+  },
+  "sortOrder": 0
+}

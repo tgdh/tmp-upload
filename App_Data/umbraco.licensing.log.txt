@@ -1,0 +1,84 @@
+Looking for *.lic in \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin
+Found 1 .lic file(s):
+- \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin\umbracoForms.lic
+Could not validate license:
+
+Your license has been approved for the following IPs/Domains: - This license is *not* associated with any ips or domains at all
+Looking for *.lic in \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin
+Found 1 .lic file(s):
+- \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin\umbracoForms.lic
+Could not validate license:
+
+Your license has been approved for the following IPs/Domains: - This license is *not* associated with any ips or domains at all
+Looking for *.lic in \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin
+Found 1 .lic file(s):
+- \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin\umbracoForms.lic
+Could not validate license:
+
+Your license has been approved for the following IPs/Domains: - This license is *not* associated with any ips or domains at all
+Looking for *.lic in \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin
+Found 1 .lic file(s):
+- \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin\umbracoForms.lic
+Could not validate license:
+
+Your license has been approved for the following IPs/Domains: - This license is *not* associated with any ips or domains at all
+Looking for *.lic in \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin
+Found 1 .lic file(s):
+- \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin\umbracoForms.lic
+Could not validate license:
+
+Your license has been approved for the following IPs/Domains: - This license is *not* associated with any ips or domains at all
+Looking for *.lic in \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin
+Found 1 .lic file(s):
+- \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin\umbracoForms.lic
+Could not validate license:
+
+Your license has been approved for the following IPs/Domains: - This license is *not* associated with any ips or domains at all
+Looking for *.lic in \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin
+Found 1 .lic file(s):
+- \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin\umbracoForms.lic
+Could not validate license:
+
+Your license has been approved for the following IPs/Domains: - This license is *not* associated with any ips or domains at all
+Looking for *.lic in \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin
+Found 1 .lic file(s):
+- \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin\umbracoForms.lic
+Could not validate license:
+
+Your license has been approved for the following IPs/Domains: - This license is *not* associated with any ips or domains at all
+Looking for *.lic in \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin
+Found 1 .lic file(s):
+- \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin\umbracoForms.lic
+Could not validate license:
+
+Your license has been approved for the following IPs/Domains: - This license is *not* associated with any ips or domains at all
+Looking for *.lic in \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin
+Found 1 .lic file(s):
+- \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin\umbracoForms.lic
+Could not validate license:
+
+Your license has been approved for the following IPs/Domains: - This license is *not* associated with any ips or domains at all
+Looking for *.lic in \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin
+Found 1 .lic file(s):
+- \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin\umbracoForms.lic
+Could not validate license:
+
+Your license has been approved for the following IPs/Domains: - This license is *not* associated with any ips or domains at all
+Looking for *.lic in \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin
+Found 1 .lic file(s):
+- \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin\umbracoForms.lic
+Could not validate license:
+
+Your license has been approved for the following IPs/Domains: - This license is *not* associated with any ips or domains at all
+Looking for *.lic in \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin
+Found 1 .lic file(s):
+- \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin\umbracoForms.lic
+Could not validate license:
+
+Your license has been approved for the following IPs/Domains: - This license is *not* associated with any ips or domains at all
+Looking for *.lic in \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin
+Found 1 .lic file(s):
+- \\vmware-host\Shared Folders\Sites\Projects\tmp-upload\umbraco-site\bin\umbracoForms.lic
+Could not validate license:
+
+Your license has been approved for the following IPs/Domains: - This license is *not* associated with any ips or domains at all

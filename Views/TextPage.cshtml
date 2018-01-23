@@ -1,0 +1,10 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Site.cshtml";
+}
+
+<section class="o-section">
+	<div class="o-wrap o-wrap--large">
+		<h1 class="o-title giga">@(CurrentPage.HasValue("pageTitle") ? CurrentPage.pageTitle : CurrentPage.Name)</h1>
+		@CurrentPage.bodyText
+</section>

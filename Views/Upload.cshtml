@@ -1,0 +1,32 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Site.cshtml";
+}
+
+<section class="o-section">
+
+	<div class="o-wrap o-wrap--large">
+		<h1 class="o-title mega">@( CurrentPage.HasValue("title") ? CurrentPage.Title : CurrentPage.Name )</h1>
+		@CurrentPage.BodyText
+		<p class="c-alert js-alert">
+			<span class="sk-folding-cube c-loader">
+				<span class="sk-cube1 sk-cube"></span>
+				<span class="sk-cube2 sk-cube"></span>
+				<span class="sk-cube4 sk-cube"></span>
+				<span class="sk-cube3 sk-cube"></span>
+			</span>
+			<strong>Please wait for the thank you message before navigating away.</strong>
+		</p>
+	</div>
+
+	<div class="o-wrap o-wrap--small c-upload-form js-upload-form">
+		@Umbraco.RenderMacro("FormsRenderForm", new {FormGuid="ebcafd79-eec0-4850-b258-7d0076ea77d2"})
+	</div>
+
+	@if( CurrentPage.HasValue("Strapline") ) {
+		<div class="beta o-title o-strapline">
+			@CurrentPage.Strapline
+		</div>
+	}
+
+</section>

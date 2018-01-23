@@ -1,0 +1,117 @@
+{
+  "name": "File upload form",
+  "created": "2015-11-05T02:17:17.4767267-08:00",
+  "pages": [
+    {
+      "fieldSets": [
+        {
+          "caption": null,
+          "sortOrder": 0,
+          "id": "30c4ba9c-67ef-4fe6-b181-06d939f2963e",
+          "page": "00000000-0000-0000-0000-000000000000",
+          "containers": [
+            {
+              "caption": null,
+              "width": 12,
+              "fields": [
+                {
+                  "caption": "Click here to securely upload your file",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "fileUploadField",
+                  "id": "966b885d-9232-43db-bc01-0c3894a01e8b",
+                  "fieldTypeId": "84a17cf8-b711-46a6-9840-0e4a072ad000",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": "Please upload a file",
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {},
+                  "preValues": []
+                },
+                {
+                  "caption": "Text field",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "textField",
+                  "id": "9c9dd4c2-a0da-4779-a8e6-1a366d31cad4",
+                  "fieldTypeId": "e3fbf6c4-f46c-495e-aff8-4b3c227b4a98",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": null,
+                  "settings": {
+                    "Caption": "",
+                    "BodyText": "*Max upload: 2GB"
+                  },
+                  "preValues": []
+                },
+                {
+                  "caption": "",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "recaptchaField",
+                  "id": "a51ca822-227d-457c-aabc-2c3f65281037",
+                  "fieldTypeId": "4a2e8e12-9613-4720-9bcd-f9871262d6ac",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": "Please enter the number from the image above",
+                  "invalidErrorMessage": null,
+                  "condition": null,
+                  "settings": {
+                    "Theme": "clean"
+                  },
+                  "preValues": []
+                }
+              ]
+            }
+          ],
+          "condition": null
+        }
+      ],
+      "caption": null,
+      "sortOrder": 0,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "form": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "id": "ebcafd79-eec0-4850-b258-7d0076ea77d2",
+  "fieldIndicationType": "MarkMandatoryFields",
+  "indicator": "*",
+  "showValidationSummary": false,
+  "hideFieldValidation": false,
+  "requiredErrorMessage": "Please provide a value for {0}",
+  "invalidErrorMessage": "Please provide a valid value for {0}",
+  "messageOnSubmit": "All done – we've got your file",
+  "goToPageOnSubmit": 1057,
+  "xPathOnSubmit": null,
+  "manualApproval": false,
+  "storeRecordsLocally": true,
+  "cssClass": null,
+  "disableDefaultStylesheet": true,
+  "useClientDependency": false,
+  "workflows": [
+    "e24f91dc-1819-49e0-915a-e5ba0d564339",
+    "40d400d8-2f33-41bc-bb7b-cf02e5c0c368"
+  ],
+  "datasource": null,
+  "submitLabel": "Submit",
+  "nextLabel": "Next",
+  "prevLabel": "Previous"
+}
