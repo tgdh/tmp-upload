@@ -14,6 +14,6 @@
     }
     @if (hasBody)
     {
-        <p>@Html.Raw(settings["BodyText"].ParsePlaceHolders().Replace(System.Environment.NewLine, "<br />"))</p>
+        <p class="u-smaller-text">@Html.Raw(settings["BodyText"].ParsePlaceHolders().Replace(System.Environment.NewLine, "<br />"))</p>
     }
 </div>

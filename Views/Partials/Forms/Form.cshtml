@@ -64,10 +64,11 @@ else
                                         @foreach (FieldViewModel f in c.Fields)
                                         {
                                             bool hidden = f.HasCondition && f.ConditionActionType == FieldConditionActionType.Show;
+                                            var isCheckbox = new[] {"checkbox"}.Contains(f.FieldTypeName.ToLowerInvariant());
 
                                             <div class="@f.CssClass" @{ if (hidden) { <text> style="display: none" </text>  } }>
 
-                                                @if (!f.HideLabel)
+                                                @if (!f.HideLabel && !isCheckbox)
                                                 {
                                                     <label for="@f.Id" class="fieldLabel">
                                                         @Html.Raw(f.Caption) @if (f.ShowIndicator)

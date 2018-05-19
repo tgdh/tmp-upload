@@ -55,6 +55,47 @@
                   "preValues": []
                 },
                 {
+                  "caption": "Text field",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "textField",
+                  "id": "c1f5659a-14af-4f37-ec12-256f3dfca013",
+                  "fieldTypeId": "e3fbf6c4-f46c-495e-aff8-4b3c227b4a98",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": null,
+                  "settings": {
+                    "Caption": "",
+                    "BodyText": "Please tick this box to confirm that you are the Data Controller and have the necessary permissions to utilise this data in-line with the GDPR. The Mailing People are Data Processors acting on behalf of the Data Controller and will only process  personal data of third parties for the performance of contract. We will only act on the documented instructions of the Data Controller. To read our GDPR compliance statement, <a href=\"/preference-centre\">click here</a>."
+                  },
+                  "preValues": []
+                },
+                {
+                  "caption": "We are the Data Controller and have the necessary permissions to utilise this data in-line with the GDPR.",
+                  "tooltip": "",
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "consent",
+                  "id": "37915e48-d8fc-4a34-9392-11319dad9252",
+                  "fieldTypeId": "d5c0c390-ae9a-11de-a69e-666455d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": null,
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": []
+                },
+                {
                   "caption": "Click here to securely upload your file",
                   "tooltip": null,
                   "placeholder": null,
@@ -97,6 +138,24 @@
                     "Caption": "",
                     "BodyText": "*Max upload: 2GB"
                   },
+                  "preValues": []
+                },
+                {
+                  "caption": "",
+                  "tooltip": "",
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "security",
+                  "id": "fa3160db-8cd0-474a-b956-2f373f96eaba",
+                  "fieldTypeId": "9c804aa5-d7d6-42d8-b492-2e0e196331ad",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": null,
+                  "settings": {},
                   "preValues": []
                 }
               ]

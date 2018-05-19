@@ -1,8 +1,15 @@
 @model Umbraco.Forms.Mvc.Models.FieldViewModel    
-<input type="checkbox" name="@Model.Name" id="@Model.Id" 
-    @if(Model.Mandatory){<text>  data-val="true" data-val-requiredcb="@Model.RequiredErrorMessage"</text>}
-    @if (Model.ContainsValue(true) || Model.ContainsValue("true") || Model.ContainsValue("on"))
-    {<text>checked="checked"</text>}       
-                                                                                                         
-    />
+@{
 
+}
+
+<div class="o-checkbox">
+    <input class="o-checkbox__input" type="checkbox" name="@Model.Name" id="@Model.Id" 
+        @if(Model.Mandatory){<text>  data-val="true" data-val-requiredcb="@Model.RequiredErrorMessage"</text>}
+        @if (Model.ContainsValue(true) || Model.ContainsValue("true") || Model.ContainsValue("on"))
+        {<text>checked="checked"</text>}       
+                                                                                                            
+        />
+
+        <label class="o-checkbox__label" for="@Model.Id">@Model.Caption</label>
+</div>

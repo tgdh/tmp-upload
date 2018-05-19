@@ -1,0 +1,42 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Site.cshtml";
+    
+}
+
+<section class="o-section">
+	<div class="o-wrap o-wrap--large">
+		<h1 class="o-title giga">@(CurrentPage.HasValue("pageTitle") ? CurrentPage.pageTitle : CurrentPage.Name)</h1>
+		@CurrentPage.bodyText
+        <div class="o-wrap o-wrap--small u-margin-top">
+            <form id="subForm" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E9056198086123497C000A6B72D413AED214309BEDF716DC58E2A29CDFCE9A5A2128E3DCC3757E1ABEB86CB0ED956A3CE3A21C1">
+                <div class="contourField">
+                    <label for="fieldName" class="fieldLabel">Name</label>
+                    <input id="fieldName" name="cm-name" type="text" />
+                </div>
+                <div class="contourField">
+                    <label for="fieldEmail" class="fieldLabel">Email</label>
+                    <input id="fieldEmail" class="js-cm-email-input" name="cm-zttiku-zttiku" type="text" required />
+                </div>
+                <div class="contourField">
+                    <label for="fieldekhlyi" class="fieldLabel">Company name</label>
+                    <input id="fieldekhlyi" name="cm-f-ekhlyi" type="text" />
+                </div>
+                <div class="contourField">
+                    <label for="fieldekhlyd" class="fieldLabel">Job title</label>
+                    <input id="fieldekhlyd" name="cm-f-ekhlyd" type="text" />
+                </div>
+                <div class="contourField">
+                    <label class="fieldLabel">Is the company you work for already a customer of ours?</label>
+                    <div class="o-checkbox">
+                        <input class="o-checkbox__input" id="fieldekhlyt-0" name="cm-fo-ekhlyt" value="2013013" type="checkbox" />
+                        <label class="o-checkbox__label" for="fieldekhlyt-0">Yes we are a customer.</label>                        
+                    </div>
+                </div>
+                <div class="contourNavigation row-fluid">
+                    <button class="js-cm-submit-button o-button o-button--secondary" type="submit">Subscribe</button>
+                </div>
+            </form>
+            <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
+        </div>
+</section>
