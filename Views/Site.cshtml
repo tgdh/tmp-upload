@@ -19,11 +19,11 @@
 	var twitterCreator = (settings.HasValue("twitter") ? "@" + twitterUrl.Split('/').Last() : "");
 
 	var secureUrl = "https://" +  Request.Url.Host.ToString() + Request.RawUrl.ToString();
-@*
+
 	if( !Request.IsSecureConnection && CurrentPage.DocumentTypeAlias == "Upload" ) {
 		Response.Redirect(secureUrl);
 	}
-*@	
+
 }
 <!doctype html>
 <!--[if lte IE 9]> <html lang="en" class="no-js lt-ie10 @pageScope"> <![endif]-->
@@ -77,6 +77,13 @@
 
 	<!-- FAVICONS	-->
 	<link rel="shortcut icon" href="/assets/img/favicon.ico">
+		
+	<style>
+		#contour #recaptcha_widget_div,
+		.contour #recaptcha_widget_div {
+			margin-left: inherit !important;	
+		}
+	</style>
 </head>
 <body class="o-page">
 	@Html.Partial("Page/Header")

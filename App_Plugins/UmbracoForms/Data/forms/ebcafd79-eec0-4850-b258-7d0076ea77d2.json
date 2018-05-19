@@ -1,6 +1,6 @@
 {
   "name": "File upload form",
-  "created": "2015-11-05T02:17:17.4767267-08:00",
+  "created": "2015-11-05T10:17:17.4767267+00:00",
   "pages": [
     {
       "fieldSets": [
@@ -14,6 +14,46 @@
               "caption": null,
               "width": 12,
               "fields": [
+                {
+                  "caption": "Client name",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "clientName",
+                  "id": "68dc87be-46e1-4bfa-93b5-45a1508ec448",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": null,
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": []
+                },
+                {
+                  "caption": "Email address",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "emailAddress",
+                  "id": "036b7789-d8a6-4820-a3f6-f9609cac8c19",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": true,
+                  "regex": "^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$",
+                  "requiredErrorMessage": "",
+                  "invalidErrorMessage": "Please enter a valid email address",
+                  "condition": null,
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": []
+                },
                 {
                   "caption": "Click here to securely upload your file",
                   "tooltip": null,
@@ -58,26 +98,6 @@
                     "BodyText": "*Max upload: 2GB"
                   },
                   "preValues": []
-                },
-                {
-                  "caption": "",
-                  "tooltip": null,
-                  "placeholder": null,
-                  "cssClass": null,
-                  "alias": "recaptchaField",
-                  "id": "a51ca822-227d-457c-aabc-2c3f65281037",
-                  "fieldTypeId": "4a2e8e12-9613-4720-9bcd-f9871262d6ac",
-                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
-                  "dataSourceFieldKey": null,
-                  "mandatory": false,
-                  "regex": null,
-                  "requiredErrorMessage": "Please enter the number from the image above",
-                  "invalidErrorMessage": null,
-                  "condition": null,
-                  "settings": {
-                    "Theme": "clean"
-                  },
-                  "preValues": []
                 }
               ]
             }
@@ -107,8 +127,8 @@
   "disableDefaultStylesheet": true,
   "useClientDependency": false,
   "workflows": [
-    "e24f91dc-1819-49e0-915a-e5ba0d564339",
-    "40d400d8-2f33-41bc-bb7b-cf02e5c0c368"
+    "ec8a30c9-f505-45cc-820e-e0ced05c9cc0",
+    "84741388-c688-447d-84e6-c65f5132271d"
   ],
   "datasource": null,
   "submitLabel": "Submit",

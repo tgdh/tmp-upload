@@ -301,3 +301,4 @@ __pycache__/
 **/App_Data/cache/
 
 connectionStrings.config
+App_Data/.DS_Store

@@ -1,0 +1,14 @@
+{
+  "id": "01026021-2208-44a4-8262-5623c7d2e39a",
+  "name": "Send xslt transformed email",
+  "form": "c91d6cb9-98f1-42f8-83c3-9b3960c48a6f",
+  "active": true,
+  "workflowTypeId": "616edfeb-badf-414b-89dc-d8655eb85998",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "kev@tgdh.co.uk",
+    "Subject": "Test workflow",
+    "XsltFile": "/media/1030/email-download-link.xslt"
+  },
+  "sortOrder": 0
+}

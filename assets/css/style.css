@@ -443,23 +443,19 @@ label[for] {
 }
 
 ::-webkit-input-placeholder {
-  color: #666;
-  text-transform: uppercase;
+  color: #ccc;
 }
 
 :-moz-placeholder {
-  color: #666;
-  text-transform: uppercase;
+  color: #ccc;
 }
 
 ::-moz-placeholder {
-  color: #666;
-  text-transform: uppercase;
+  color: #ccc;
 }
 
 :-ms-input-placeholder {
-  color: #666;
-  text-transform: uppercase;
+  color: #ccc;
 }
 
 /* ===========================================================
@@ -995,6 +991,21 @@ p + .contour {
   font-style: 80%;
   color: #666;
   margin-top: 0.35em;
+}
+
+.contourField .fieldLabel {
+  font-weight: 700;
+  padding-bottom: 0.35em;
+}
+.contourField input[type="text"] {
+  background-color: #FFFFFF;
+}
+.contourField .contourIndicator {
+  color: #ee3030;
+}
+
+.contourField + .contourField {
+  margin-top: 1.4em;
 }
 /* ===========================================================
 

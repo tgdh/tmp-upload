@@ -1,0 +1,14 @@
+{
+  "id": "ec8a30c9-f505-45cc-820e-e0ced05c9cc0",
+  "name": "Send xslt email to jobs@",
+  "form": "ebcafd79-eec0-4850-b258-7d0076ea77d2",
+  "active": true,
+  "workflowTypeId": "616edfeb-badf-414b-89dc-d8655eb85998",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "jobs@themailingpeople.co.uk",
+    "Subject": "A file has been uploaded through the TMP upload service",
+    "XsltFile": "/media/1031/email-download-link.xslt"
+  },
+  "sortOrder": 0
+}
